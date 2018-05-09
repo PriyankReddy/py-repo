@@ -1,2 +1,2 @@
 # py-repo
-python snippets useful for learning
+python snippets for reference
