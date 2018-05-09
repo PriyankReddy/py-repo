@@ -42,3 +42,11 @@ print('h: {}'.format(h))
 heapq.heapreplace(h,1)  # pops smallest element first then pushes the new element
 print('h: {}'.format(h))
 
+'''
+    1. If N is about the same size as the collection itself, it is usually faster to 
+    sort it first and take a slice (i.e., use sorted(items)[:N] or sorted(items)[-N:])
+    2. The nlargest() and nsmallest() functions are most appropriate if you are trying 
+    to find a relatively small number of items.
+    3. If you are simply trying to find the single smallest or largest item (N=1), it 
+    is faster to use min() and max().
+'''
